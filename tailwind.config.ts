@@ -10,8 +10,8 @@ const config: Config = {
     require("daisyui"),
   ],
   daisyui:{
-    themes:["retro"],
-    darkTheme:["night"],
+    themes:["retro","night"],
+    darkTheme:"night",
   }
 }
 export default config
