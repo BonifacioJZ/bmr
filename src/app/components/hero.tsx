@@ -1,10 +1,16 @@
-import React, { FC, ReactElement } from "react";
+import React, { FC } from "react";
 import Image from "next/image";
-import tacos from "../images/tacos.jpeg"
+import tacos from "../images/tacos.jpg"
+
+/**
+ * The Hero component is a functional component in TypeScript React that displays a hero section with
+ * an image and a description of a Mexican restaurant called BMR.
+ * @returns The Hero component is returning a JSX element.
+ */
 const Hero:FC = ()=>{
     return(
         <>
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero min-h-screen ">
             <div className="hero-content flex-col lg:flex-row-reverse">
             <Image src={tacos} alt="BMR" width={500} height={500} className="rounded-lg shadow-2xl" />
                 <div>
@@ -17,4 +23,5 @@ const Hero:FC = ()=>{
     )
 }
 
+//TODO(colocar los textos estaticos en constantes)
 export default Hero;
