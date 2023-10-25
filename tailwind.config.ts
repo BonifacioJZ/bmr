@@ -11,7 +11,7 @@ const config: Config = {
   ],
   daisyui:{
     themes:["retro"],
-    darkTheme:"night"
+    darkTheme:["night"],
   }
 }
 export default config
