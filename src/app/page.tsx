@@ -1,4 +1,5 @@
 import About from "./components/about";
+import Drinks from "./components/drinks";
 import Hero from "./components/hero";
 import Products from "./components/products";
 
@@ -7,7 +8,8 @@ export default function Home() {
     <div>
       <Hero/>
       <About/>
-      <Products/> 
+      <Products/>
+      <Drinks />
     </div>
   )
 }
