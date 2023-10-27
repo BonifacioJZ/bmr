@@ -34,7 +34,7 @@ const Products:FC = () => {
                                 <span className="text-secondary-700">Combinados</span>
                             </li>
                         </ul>
-                    </div>
+                </div>
                     </div>
                     {/*Tortas*/}
                     <div className="p-4 md:w-1/3">
